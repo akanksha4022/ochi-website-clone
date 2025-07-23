@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@font-face {
+  font-family: NeueMontreal;
+  src: url(./assets/NeueMontreal-Regular.ttf);
+}
+@font-face {
+  font-family: Founders;
+  src: url(./assets/FoundersGrotesk-Semibold.ttf);
+}
+::selection{
+  color: peru;
+  background-color:  rgb(255, 242, 219);
+}
