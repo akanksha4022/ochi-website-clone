@@ -9,10 +9,10 @@ const Landing = () => {
         <div className="textStructure mt-40 px-20">
           {["we create","eye opening","presentations"].map((item, index)=>{
             return (<div className="masker text-amber-50">
-                    <div className='w-fit flex overflow-hidden'>
+                    <div className='w-fit flex overflow-hidden transition-transform duration-[600ms] ease-in-out'>
                       {index=== 1 && (<motion.div initial={{width:0}} 
                         animate={{width: "9vw"}} 
-                        transition={{ease: [0,1.03,.98,.06]}} 
+                        transition={{ease: [0.45, 0, 0.55, 1], duration:0.6}} 
                         className=" mr-[1vw] w-[9vw] h-[5.1vw] rounded-md relative top-[10px] bg-cover bg-[url('https://images.pexels.com/photos/207891/pexels-photo-207891.jpeg')]"></motion.div> )}
                     <h1 className="mb-[0.7vw] uppercase text-[8.5vw] leading-[.65] font-[Founders]">{item}</h1>
                     </div>                    
